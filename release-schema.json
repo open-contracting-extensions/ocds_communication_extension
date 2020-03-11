@@ -1,0 +1,25 @@
+{
+  "definitions": {
+    "Tender": {
+      "properties": {
+        "atypicalToolUrl": {
+          "title": "Atypical tool URL",
+          "description": "Electronic communication with the procuring entity requires the use of tools and devices that are not generally available. These tools are accessible via this URL.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "futureNoticeDate": {
+          "title": "Future notice date",
+          "description": "The estimated date of the publication of the contract notice.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        }
+      }
+    }
+  }
+}

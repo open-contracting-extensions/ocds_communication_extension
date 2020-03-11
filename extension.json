@@ -1,0 +1,17 @@
+{
+  "name": {
+    "en": "Communication"
+  },
+  "description": {
+    "en": "Adds a communication object to the tender to describe the modalities of communication about key events."
+  },
+  "documentationUrl": {
+    "en": "https://github.com/open-contracting-extensions/ocds_communication_extension"
+  },
+  "compatibility": [
+    "1.1"
+  ],
+  "schemas": [
+    "release-schema.json"
+  ]
+}
