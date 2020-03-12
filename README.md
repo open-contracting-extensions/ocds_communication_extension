@@ -11,8 +11,10 @@ In the European Union, this extension's fields correspond to [eForms BT-124 and 
 ```json
 {
   "tender": {
-    "atypicalToolUrl": "https://ecomm-procurement.example.net",
-    "futureNoticeDate": "2020-06-17T00:00:00+01:00"
+    "communication": {
+      "atypicalToolUrl": "https://ecomm-procurement.example.net",
+      "futureNoticeDate": "2020-06-17T00:00:00+01:00"
+    }
   }
 }
 ```

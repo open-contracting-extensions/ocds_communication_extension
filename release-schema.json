@@ -2,22 +2,30 @@
   "definitions": {
     "Tender": {
       "properties": {
-        "atypicalToolUrl": {
-          "title": "Atypical tool URL",
-          "description": "Electronic communication with the procuring entity requires the use of tools and devices that are not generally available. These tools are accessible via this URL.",
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "futureNoticeDate": {
-          "title": "Future notice date",
-          "description": "The estimated date of the publication of the contract notice.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "format": "date-time"
+        "communication": {
+          "title": "Communication",
+          "description": "Modalities of communication about key events.",
+          "type": "object",
+          "properties": {
+            "atypicalToolUrl": {
+              "title": "Atypical tool URL",
+              "description": "Electronic communication with the procuring entity requires the use of tools and devices that are not generally available. These tools are accessible via this URL.",
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "uri"
+            },
+            "futureNoticeDate": {
+              "title": "Future notice date",
+              "description": "The estimated date of publication of the next sequential notice.",
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "date-time"
+            }
+          }
         }
       }
     }
