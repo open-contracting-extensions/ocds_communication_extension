@@ -25,7 +25,8 @@
               ],
               "format": "date-time"
             }
-          }
+          },
+          "minProperties": 1
         }
       }
     }
