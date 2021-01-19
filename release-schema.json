@@ -24,6 +24,11 @@
                 "null"
               ],
               "format": "date-time"
+            },
+            "documentAvailabilityPeriod": {
+              "title": "Document availability period",
+              "description": "Deadline for the receipt of requests for documents or for accessing documents.",
+              "$ref": "#/definitions/Period"
             }
           },
           "minProperties": 1
