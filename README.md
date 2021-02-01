@@ -31,7 +31,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2021-01-19
 
-* Add `documentAvailabilityPeriod` field
+* Add `tender.communication.documentAvailabilityPeriod` field
 
 ### 2020-04-24
 
