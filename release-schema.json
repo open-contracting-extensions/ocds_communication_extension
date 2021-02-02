@@ -24,6 +24,11 @@
                 "null"
               ],
               "format": "date-time"
+            },
+            "documentAvailabilityPeriod": {
+              "title": "Document availability period",
+              "description": "The period during which documents can be accessed, or during which requests for access to documents can be submitted.",
+              "$ref": "#/definitions/Period"
             }
           },
           "minProperties": 1
