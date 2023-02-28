@@ -4,7 +4,7 @@ Adds a communication object to the tender to describe the modalities of communic
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BT-124 and BT-127](https://github.com/eForms/eForms). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
+In the European Union, this extension's fields correspond to [eForms BT-124 and BT-127](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
 
 ## Example
 
