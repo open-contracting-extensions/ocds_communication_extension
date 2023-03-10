@@ -4,36 +4,77 @@
       "properties": {
         "communication": {
           "title": "Communication",
-          "description": "Modalities of communication about key events.",
-          "type": "object",
-          "properties": {
-            "atypicalToolUrl": {
-              "title": "Atypical tool URL",
-              "description": "Electronic communication with the procuring entity requires the use of tools and devices that are not generally available. These tools are accessible via this URL.",
-              "type": [
-                "string",
-                "null"
-              ],
-              "format": "uri"
-            },
-            "futureNoticeDate": {
-              "title": "Future notice date",
-              "description": "The estimated date of publication of the next sequential notice.",
-              "type": [
-                "string",
-                "null"
-              ],
-              "format": "date-time"
-            },
-            "documentAvailabilityPeriod": {
-              "title": "Document availability period",
-              "description": "The period during which documents can be accessed, or during which requests for access to documents can be submitted.",
-              "$ref": "#/definitions/Period"
-            }
-          },
-          "minProperties": 1
+          "description": "Modalities of communication about key events for the tender",
+          "$ref": "#/definitions/Communication"
         }
       }
+    },
+    "Lot": {
+      "properties": {
+        "communication": {
+          "title": "Communication",
+          "description": "Modalities of communication about key events for the lot",
+          "$ref": "#/definitions/Communication"
+        }
+      }
+    },
+    "Communication": {
+      "title": "Communication",
+      "description": "Modalities of communication about key events.",
+      "type": "object",
+      "properties": {
+        "atypicalToolName": {
+          "title": "Atypical tool name",
+          "description": "Electronic communication with the procuring entity requires the use of a tool or device that is not generally available. This is the name of this tool or device.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "atypicalToolUrl": {
+          "title": "Atypical tool URL",
+          "description": "Electronic communication with the procuring entity requires the use of tools and devices that are not generally available. These tools are accessible via this URL.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "noticeRequestedPublicationDate": {
+          "title": "Notice preferred publication date",
+          "description": "The preferred date of publication of the notice (e.g. to avoid publication during a national holiday)",
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "futureNoticeDate": {
+          "title": "Future notice date",
+          "description": "The estimated date of publication of the next sequential notice. For a planning notice this will be the competition notice.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "invitationToConfirmInterest": {
+          "title": "Invitation to confirm interest",
+          "description": "The estimated period of dispatch of the invitations to confirm interest in participation. This field is applicable only when the release is a planning call for competition notice.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "documentAvailabilityPeriod": {
+          "title": "Document availability period",
+          "description": "The period during which documents can be accessed, or during which requests for access to documents can be submitted.",
+          "$ref": "#/definitions/Period"
+        }
+      },
+      "minProperties": 1
     }
   }
 }
