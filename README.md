@@ -1,6 +1,6 @@
 # Communication
 
-Adds a communication object to the tender or a lot to describe the modalities of communication about key events.
+Adds a communication object to the tender and lot objects, to describe the modalities of communication about key events.
 
 If you are using the [Lots extension](https://extensions.open-contracting.org/en/extensions/lots/master/), [follow its guidance](https://extensions.open-contracting.org/en/extensions/lots/master/#usage) on whether to use `tender.lots` fields or `tender` fields.
 
