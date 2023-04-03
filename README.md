@@ -49,7 +49,7 @@ An example of a planning notice that is used as a call for competition and that 
             "startDate": "2020-06-15T00:00:00+01:00",
             "endDate": "2020-07-10T00:00:00+01:00"
           },
-          "invitationToConfirmInterest": "2020-11-15T09:00:00+01:00"
+          "invitationToConfirmInterestDispatchDate": "2020-11-15T09:00:00+01:00"
         }
       }
     ]
@@ -66,7 +66,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 ### 2023-03-09
 
 * Add fields:
-  * `Communication.invitationToConfirmInterest`
+  * `Communication.invitationToConfirmInterestDispatchDate`
   * `Communication.atypicalToolName`
   * `Communication.noticePreferredPublicationDate`
   * `Lot.communication`
