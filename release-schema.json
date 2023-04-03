@@ -34,7 +34,7 @@
         },
         "atypicalToolUrl": {
           "title": "Atypical tool URL",
-          "description": "Electronic communication with the procuring entity requires the use of tools and devices that are not generally available. These tools are accessible via this URL.",
+          "description": "The URL of the tools and devices that are not generally available and that are required to communicate electronically with the buyer.",
           "type": [
             "string",
             "null"
