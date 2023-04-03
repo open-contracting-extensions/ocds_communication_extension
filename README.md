@@ -33,7 +33,7 @@ An example of a planning notice from which a competition notice will follow.
 
 ### Lot
 
-An example of a planning notice divided into lots which is also a call for competition.
+An example of a planning notice that is used as a call for competition and that is divided into lots.
 
 ```json
 {
