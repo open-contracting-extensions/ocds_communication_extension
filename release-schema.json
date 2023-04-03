@@ -13,7 +13,7 @@
       "properties": {
         "communication": {
           "title": "Communication",
-          "description": "Modalities of communication about key events for the lot",
+          "description": "Modalities of communication about key events for this lot.",
           "$ref": "#/definitions/Communication"
         }
       }
