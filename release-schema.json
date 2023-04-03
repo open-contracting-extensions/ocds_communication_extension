@@ -60,7 +60,7 @@
           "format": "date-time"
         },
         "invitationToConfirmInterestDispatchDate": {
-          "title": "Invitation to confirm interest",
+          "title": "Invitation to confirm interest dispatch date",
           "description": "The estimated period of dispatch of the invitations to confirm interest in participation. This field is applicable only when the release is a planning call for competition notice.",
           "type": [
             "string",
