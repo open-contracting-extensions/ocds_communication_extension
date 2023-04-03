@@ -43,7 +43,7 @@
         },
         "noticePreferredPublicationDate": {
           "title": "Notice preferred publication date",
-          "description": "The preferred date of publication of the notice (e.g. to avoid publication during a national holiday)",
+          "description": "The buyer's preferred date of publication of the notice (e.g. to avoid publication during a national holiday).",
           "type": [
             "string",
             "null"
