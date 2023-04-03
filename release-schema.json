@@ -25,7 +25,7 @@
       "properties": {
         "atypicalToolName": {
           "title": "Atypical tool name",
-          "description": "Electronic communication with the procuring entity requires the use of a tool or device that is not generally available. This is the name of this tool or device.",
+          "description": "The name of the tools and devices that are not generally available and that are required to communicate electronically with the buyer.",
           "type": [
             "string",
             "null"
