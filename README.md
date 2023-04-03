@@ -65,7 +65,11 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2023-03-09
 
-* Add `communication.invitationToConfirmInterest`, `communication.atypicalToolName`, `communication.noticeRequestedPublicationDate` and `Lot.communication`
+* Add fields:
+  * `Communication.invitationToConfirmInterest`
+  * `Communication.atypicalToolName`
+  * `Communication.noticeRequestedPublicationDate`
+  * `Lot.communication`
 
 ### 2021-01-19
 
