@@ -21,7 +21,7 @@ An example of a planning notice from which a competition notice will follow.
       "atypicalToolName": "ACertainTool",
       "atypicalToolUrl": "https://ecomm-procurement.example.net",
       "futureNoticeDate": "2020-06-17T00:00:00+01:00",
-      "noticeRequestedPublicationDate": "2020-03-15T00:00:00+01:00",
+      "noticePreferredPublicationDate": "2020-03-15T00:00:00+01:00",
       "documentAvailabilityPeriod": {
         "startDate": "2020-06-15T00:00:00+01:00",
         "endDate": "2020-07-10T00:00:00+01:00"
@@ -44,7 +44,7 @@ An example of a planning notice that is used as a call for competition and that 
         "communication": {
           "atypicalToolName": "ACertainTool",
           "atypicalToolUrl": "https://ecomm-procurement.example.net",
-          "noticeRequestedPublicationDate": "2020-03-15T00:00:00+01:00",
+          "noticePreferredPublicationDate": "2020-03-15T00:00:00+01:00",
           "documentAvailabilityPeriod": {
             "startDate": "2020-06-15T00:00:00+01:00",
             "endDate": "2020-07-10T00:00:00+01:00"
@@ -68,7 +68,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 * Add fields:
   * `Communication.invitationToConfirmInterest`
   * `Communication.atypicalToolName`
-  * `Communication.noticeRequestedPublicationDate`
+  * `Communication.noticePreferredPublicationDate`
   * `Lot.communication`
 
 ### 2021-01-19
