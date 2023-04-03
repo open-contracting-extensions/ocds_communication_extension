@@ -41,7 +41,7 @@
           ],
           "format": "uri"
         },
-        "noticeRequestedPublicationDate": {
+        "noticePreferredPublicationDate": {
           "title": "Notice preferred publication date",
           "description": "The preferred date of publication of the notice (e.g. to avoid publication during a national holiday)",
           "type": [
