@@ -61,7 +61,7 @@
         },
         "invitationToConfirmInterestDispatchDate": {
           "title": "Invitation to confirm interest dispatch date",
-          "description": "The estimated period of dispatch of the invitations to confirm interest in participation. This field is applicable only when the release is a planning call for competition notice.",
+          "description": "The estimated date of dispatch from the buyer to potential suppliers of the invitations to confirm interest. For example, when a planning notice is used as a call for competition, the buyer might simultaneously invite the potential suppliers that have expressed their interest to confirm their continuing interest.",
           "type": [
             "string",
             "null"
