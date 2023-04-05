@@ -6,7 +6,7 @@ If you are using the [Lots extension](https://extensions.open-contracting.org/en
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BT-124, BT-127, BT-631, BT-632 and BT-738](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
+In the European Union, this extension's fields correspond to [eForms BT-124, BT-127, BT-631, BT-632 and BT-738](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/).
 
 ## Example
 
