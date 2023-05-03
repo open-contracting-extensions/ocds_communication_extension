@@ -6,7 +6,7 @@ If you are using the [Lots extension](https://extensions.open-contracting.org/en
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BT-124, BT-127, BT-631, BT-632 and BT-738](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/).
+In the European Union, this extension's fields correspond to [eForms BT-124, BT-127, BT-631, BT-632 and BT-738](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). See [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/) for the correspondences to eForms fields. See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
 
 ## Example
 
@@ -66,8 +66,8 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 ### 2023-03-09
 
 * Add fields:
-  * `Communication.invitationToConfirmInterestDispatchDate`
   * `Communication.atypicalToolName`
+  * `Communication.invitationToConfirmInterestDispatchDate`
   * `Communication.noticePreferredPublicationDate`
   * `Lot.communication`
 
